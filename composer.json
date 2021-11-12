@@ -90,7 +90,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/phacility/libphutil.git",
-                    "reference": "origin/stable"
+                    "reference": "39ed96cd818aae761ec92613a9ba0800824d0ab0"
                 }
             }
         }

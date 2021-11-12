@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "27d6e4e571deee802a087a359fc85a1d",
+    "content-hash": "6dad01d0083ab3326eb4ada3861d7a09",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1421,10 +1421,9 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phacility/libphutil.git",
-                "reference": "origin/stable"
+                "reference": "39ed96cd818aae761ec92613a9ba0800824d0ab0"
             },
-            "type": "library",
-            "time": "2019-05-16T20:57:37+00:00"
+            "type": "library"
         },
         {
             "name": "psr/cache",
@@ -6219,5 +6218,6 @@
         "ext-redis": "*",
         "ext-zlib": "*"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
 }
