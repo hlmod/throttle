@@ -3,7 +3,7 @@ security:
     providers:
         # used to reload user from session & other features (e.g. switch_user)
         app_user_provider:
-            id: App\Security\UserProvider
+            id: App\HLmod\Security\UserProvider
     firewalls:
         dev:
             pattern: ^/(_(profiler|wdt)|css|images|js)/
@@ -15,7 +15,7 @@ security:
                 success_handler: App\Security\LogoutSuccessHandler
             guard:
                 authenticators:
-                    - App\Security\SteamAuthenticator
+                    - App\HLmod\Security\Authenticator
 
             # activate different ways to authenticate
             # https://symfony.com/doc/current/security.html#firewalls-authentication
